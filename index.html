@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="bg-[#E6EFF6] flex flex-col items-center justify-center p-20 ">
+    <main
+      class="bg-white flex flex-col justify-center items-center w-[40rem] rounded-xl "
+    >
+      <section class="w-full bg-white flex flex-col gap-5 p-5">
+        <h1 class="text-[#46A7A4] karla-bold">Join our community</h1>
+        <div class="gap-2">
+          <p class="text-[#C6D962] karla-bold">
+            30-day, hassle-free money back guarantee
+          </p>
+          <p class="text-[#CACED5] karla-normal ">
+            Gain access to our full library of tutorials along with expert code
+            reviews. <br />
+            Perfect for any developers who are serious about honing their
+            skills.
+          </p>
+        </div>
+      </section>
+      <section class="flex">
+        <div class="w-full bg-[#2BB3B1] grid grid-col p-8 gap-2">
+          <p class="text-white karla-bold">Monthly Subscription</p>
+          <div class="flex items-center">
+            <p class="text-white text-2xl font-semibold karla-bold">$29</p>
+            <p class="text-[#76D8D7] px-3">per month</p>
+          </div>
+          <p class="text-white karla-normal ">Full access for less than $1 a day</p>
+          <button
+            class="flex justify-self-center w-full justify-center rounded-lg text-white bg-[#BFDF32] p-3"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div class="flex flex-col w-full bg-[#4ABEBD] p-8 gap-4 tracking-tight">
+          <h2 class="text-white karla-bold">Why Us</h2>
+          <p class="text-[#89DDE0] karla-normal ">
+            Tutorials by industry experts Peer & expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
